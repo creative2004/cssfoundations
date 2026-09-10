@@ -1,0 +1,116 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    font-weight: bold;
+    color:red;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: lightblue;
+
+/* border style */
+    border-style: dashed;
+    border-width: 25px 10px 4px 20px;
+    border-color: red green blue yellow;
+    /* border radius: rounds the corners of the border */
+    border-radius: 30px;
+
+    /*padding*/
+    padding: 15px;
+}
+
+h2{
+    width:100%;
+    height: auto;
+    background-color: blueviolet;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.container-fluid{
+    width: 100%;
+    height: auto;
+}
+
+h5{
+    border-style: solid;
+    border-width: 25px 10px 4px 20px;
+    border-color: red green blue yellow;
+}
+
+.button{ /*CLASS*/
+ font-size:14px;
+ color:red;
+ text-decoration: none;
+}
+
+#button1{ /*ID*/
+ font-size:15px;
+ color: yellow;
+ text-decoration: none;
+ background-color: orange;
+}
+
+P{
+    border-style: 1px solid black;
+    border-width: 25px 10px 4px 20px;
+    border-color: red green blue yellow;
+    font-size: 18px;
+    line-height: 1.6;
+
+  /*margins*/
+    margin-top: 200px;
+     margin-bottom: 100px;
+     padding-left: 20px;
+     padding-bottom: 30px;
+    /* padding: 14px 20px 24px 50px; */
+}
+
+div{
+    /*centering with auto, first define the width that the obeject can mive in. the auto measurement works to find the center and places your object in the cente*/
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+   
+   /* margin-left: auto;
+    margin-right: auto;*/
+}
+
+
+body{
+     background-color: beige;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     line-height: 1.6;
+   /* background-image:url ("flower.jpg") The background would change to my image*/ 
+}
+
+a:link{ color: blue;}
+a:visited{ color: purple;}
+a:hover{ color:pink;
+text-decoration: underline;}
+a:active{color: red;}
+
+p:hover{ color: rgb(128, 0, 51);}
+
+ul{
+    list-style-type: upper-roman;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+ol{
+    list-style-type: lower-alphas;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+table,th,td{
+    border: 5px dotted red;
+    width:70%; 
+}
+
+th{
+    border: 2px solid black;
+}
